@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vsidx
+
+# Database
+*.mdf
+*.ldf
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+
+# NuGet
+packages/
+
+# Entity Framework
+Migrations/
