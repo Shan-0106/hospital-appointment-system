@@ -31,3 +31,39 @@ ASP.NET Core Web API for managing hospital appointments, doctors, and patients.
 ### Setup Steps
 
 1. Clone the repository
+
+git clone https://github.com/Shan-0106/hospital-appointment-system.git
+cd hospital-appointment-system
+
+
+2. Update connection string in `appsettings.json`
+
+3. Run migrations
+
+4. Run the application
+
+API will be available at: `https://localhost:7163`
+
+## 📚 API Endpoints
+
+### Doctors
+- `GET /api/Doctor` - Get all doctors
+- `POST /api/Doctor` - Add new doctor
+
+### Patients
+- `GET /api/Patient` - Get all patients
+- `POST /api/Patient` - Register new patient
+
+### Appointments
+- `GET /api/Appointment` - Get all appointments
+- `POST /api/Appointment` - Book new appointment
+- `DELETE /api/Appointment/{id}` - Cancel appointment
+
+## 🔗 Frontend Repository
+
+React.js frontend: https://github.com/Shan-0106/hospital-appointment-frontend
+
+## 👨‍💻 Author
+
+Shanmuganathan
+
